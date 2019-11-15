@@ -134,7 +134,7 @@ The zoos want to display both the scientific name and the animal name in front o
 
 */
 const displayNames = zooAnimals.forEach((currentValue, index, array)=>{
-  return currentValue.animal_name + " " + currentValue.scientific_name;
+  console.log(currentValue.animal_name + " " + currentValue.scientific_name);
 });
 
 
