@@ -28,35 +28,41 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your team lead
 
-1. Describe the biggest difference between `.forEach` & `.map`.
+1.  Describe the biggest difference between `.forEach` & `.map`.
+    map returns a new array and does not manipulate the original.  for each executes a function for each element.
 
-2. What is the difference between a function and a method?
+2.  What is the difference between a function and a method?
+    A function is code that is called by name while a method is code that is called by name but is usually associated with a function or object.
+3.  What is closure?
+    IS function/objects bundled together and enclosed with references to the surrounding higher or lower state.
 
-3. What is closure?
+4.  Describe the four rules of the 'this' keyword.
+5.  A function contained in global scope, the values of 'this' inside of that function will be the window object.
+6.  A function called by a preceding dot, the object befoe that dot is this.
+7.  When a constructor function is used, 'this' refers to the specific instance of the object that is created and returned by the constructor function.
+8.  The call or apply method is used to explicitly define 'this'
 
-4. Describe the four rules of the 'this' keyword.
-
-5. Why do we need super() in an extended class?
+9.  Why do we need super() in an extended class?
+    super() will let the extended class inherient the parents instances and properties.
 
 ## Project Set up
 
 Follow these steps to set up and work on your project:
 
-- [ ] Create a forked copy of this project.
-- [ ] Add TL as collaborator on Github.
-- [ ] Clone your OWN version of Repo (Not Lambda's by mistake!).
-- [ ] Create a new Branch on the clone: git checkout -b `<firstName-lastName>`.
-- [ ] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
-- [ ] You are now ready to build this project with your preferred IDE
-- [ ] Implement the project on your Branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName>`.
+-   [ ] Create a forked copy of this project.
+-   [ ] Add TL as collaborator on Github.
+-   [ ] Clone your OWN version of Repo (Not Lambda's by mistake!).
+-   [ ] Create a new Branch on the clone: git checkout -b `<firstName-lastName>`.
+-   [ ] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
+-   [ ] You are now ready to build this project with your preferred IDE
+-   [ ] Implement the project on your Branch, committing changes regularly.
+-   [ ] Push commits: git push origin `<firstName-lastName>`.
 
 Follow these steps for completing your project:
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo).
-- [ ] Add your team lead as a Reviewer on the Pull-request
-- [ ] TL then will count the HW as done by  merging the branch back into master.
-
+-   [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo).
+-   [ ] Add your team lead as a Reviewer on the Pull-request
+-   [ ] TL then will count the HW as done by  merging the branch back into master.
 
 ## Minimum Viable Product
 
@@ -65,20 +71,28 @@ Your finished project must include all of the following requirements:
 **Pro tip for this challenge: If something seems like it isn't working locally, copy and paste your code up to codepen and take another look at the console.**
 
 ## Task 1: Objects and Arrays
-Test your knowledge of objects and arrays. 
-* [ ] Use the [objects-arrays.js](challenges/objects-arrays.js) link to get started.  Read the instructions carefully!
+
+Test your knowledge of objects and arrays.
+
+-   [ ] Use the [objects-arrays.js](challenges/objects-arrays.js) link to get started.  Read the instructions carefully!
 
 ## Task 2: Functions
-This challenge takes a look at callbacks and closures as well as scope. 
-* [ ] Use the [functions.js](challenges/functions.js) link to get started. Read the instructions carefully!
+
+This challenge takes a look at callbacks and closures as well as scope.
+
+-   [ ] Use the [functions.js](challenges/functions.js) link to get started. Read the instructions carefully!
 
 ## Task 3: Prototypes
+
 Create constructors, bind methods, and create cuboids in this prototypes challenge.
-* [ ] Use the [prototypes.js](challenges/prototypes.js) link to get started. Read the instructions carefully!
+
+-   [ ] Use the [prototypes.js](challenges/prototypes.js) link to get started. Read the instructions carefully!
 
 ## Task 4: Classes
+
 Once you have completed the prototypes challenge, it's time to convert all your hard work into classes.
-* [ ] Use the [classes.js](challenges/classes.js) link to get started. Read the instructions carefully!
+
+-   [ ] Use the [classes.js](challenges/classes.js) link to get started. Read the instructions carefully!
 
 In your solutions, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
 
